@@ -4,8 +4,8 @@ from PIL import Image
 import google.generativeai as genai
 
 # === CONFIG ===
-GEMINI_API_KEY = "AIzaSyAQtqr6t6FynIriiXFrEv6hRpE6fuXlUk8"
-PDF_PATH = r'D:\python projects\DSA\Major_project\diploma memo.pdf'
+GEMINI_API_KEY = "" #api key
+PDF_PATH = '' #path to the pdf file
 POPPLER_PATH = r"C:\poppler\poppler-24.08.0\Library\bin"
 
 # === SETUP GEMINI ===
